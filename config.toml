@@ -1,0 +1,12 @@
+[extension]
+name = "RemoteControlServer"
+translation-key = "REMOTE_CONTROL_SERVER_EXTENSION"
+
+[[resources]]
+name = "Remote Control"
+tags = ["gui"]
+entrypoint = "remote_control_gui.gd"
+translation-key="REMOTE_CONTROL_SERVER_EXTENSION"
+
+can-popup=true
+selectable-gui=false
